@@ -1,4 +1,4 @@
-import java.util.*;
+
 /**
  * Greatest Common Divisor (GCD) with an example.Let's say we want to find the GCD of two numbers: 24 and 36.
 To find the GCD, we can use the Euclidean algorithm:

@@ -1,4 +1,3 @@
-import java.util.*;
 
 //Complexity : O(m+n)
 public class MergeAlternativeStrings1768 {
