@@ -1,7 +1,7 @@
 
 //Complexity : O(m+n)
 public class MergeAlternativeStrings1768 {
-    public static void main(String args[]){
+    public static void main(String[] arg){
         String mergedString = mergeAlternately("abc", "pqr");
         System.out.println(mergedString); //output : apbqcr
     }
