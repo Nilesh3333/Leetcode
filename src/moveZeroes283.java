@@ -7,18 +7,20 @@ public class moveZeroes283 {
     }
 
     public static int[] moveZeroes(int[] nums) {
-        int i=0,j=1;
-        while (i<nums.length && j<nums.length){
-            int temp=nums[i];
-            if(nums[i] == 0 && nums[j]!=0){
-                nums[i]=nums[j];
-                nums[j]=temp;
+        int i=0,j=0;
+        while(i<nums.length && j<nums.length){
+            int temp = nums[i];
+            if(nums[i] !=0 && nums[j]!=0) {
                 i++;
                 j++;
             }
-            else
+            else if((nums[i] == 0 && nums[j] != 0)){
+                nums[i] = nums[j];
+                nums[j] = temp;
                 i++;
-            j++;
+            }
+            else
+                j++;
         }
         return nums;
     }
