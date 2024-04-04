@@ -43,7 +43,6 @@ At each step, we update the vowel count and check if it exceeds the maximum coun
     Return:
         The method returns 2, which is the maximum count of vowels in substrings of length k within the string s.
 * */
-
 public class maxVowels1456 {
     public static void main(String[] args) {
         int ans = maxVowels("leetcode",3);
