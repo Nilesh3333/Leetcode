@@ -1,4 +1,4 @@
-/*
+package Su;/*
     Iterate Through the Grid: Start by iterating through each cell in the grid.
 
     Check for Land: For each cell, if it's a '1' (land), then it's the start of an island.

@@ -1,4 +1,4 @@
-/*Approach for this Problem:
+package Su;/*Approach for this Problem:
 Create a visited grid to store the state of the cell (fresh, rotten, or empty).
 Initialize a queue to store the rotten oranges and count the number of fresh oranges.
 Check if there are no fresh oranges, return 0, or if there are no rotten oranges, return -1.
