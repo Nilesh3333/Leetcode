@@ -10,13 +10,13 @@ public class longestSubarray1493 {
     public static int longestSubarray(int[] nums) {
         int previousCount=0,nextCount = 0,maxCount =0;
         boolean flag=false;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i] == 0){
-                maxCount = Math.max(maxCount,nextCount);
+        for (int num : nums) {
+            if (num == 0) {
+                maxCount = Math.max(maxCount, nextCount);
                 nextCount = previousCount;
-                previousCount=0;
+                previousCount = 0;
                 flag = true;
-            }else{
+            } else {
                 previousCount++;
                 nextCount++;
             }
