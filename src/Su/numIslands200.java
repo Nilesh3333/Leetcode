@@ -41,7 +41,7 @@ public class numIslands200 {
         char[][] grid = new char[][]{{'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},
                 {'1', '1', '0', '0', '0'},
-                {'0', '0', '0', '0', '0'}};
+                {'0', '0', '0', '0', '1'}};
         System.out.println(numIslands(grid));
     }
     private static int numIslands(char[][] grid) {
